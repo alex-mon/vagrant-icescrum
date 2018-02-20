@@ -20,7 +20,7 @@ file { '/home/icescrum/icescrum':
 
 # Create IceScrum's launch script
 file { '/home/icescrum/icescrum/launch.sh':
-  content => 'java -Xmx1024M -XX:MaxPermSize=256m -Dicescrum_config_location=/home/icescrum/icescrum/config.groovy -jar icescrum.jar host=192.168.20.10',
+  content => 'java -Xmx1024M -XX:MaxPermSize=256m -Dicescrum_config_location=/home/icescrum/icescrum/config.groovy -jar icescrum.jar host=0.0.0.0',
   ensure  => present,
   mode    => 744,
   owner   => 'icescrum',
