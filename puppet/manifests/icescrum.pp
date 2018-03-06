@@ -9,7 +9,7 @@ user { 'icescrum':
   home        => '/home/icescrum',
   shell       => '/bin/bash',
   managehome  => yes,
-  password    => '$1$4lR2uQ/E$Ogl5Mew16ksejRzkf5gbc/',
+  password    => '$1$4lR2uQ/E$Ogl5Mew16ksejRzkf5gbc/', #Hash for: Jfr3y89h
 }
 
 # Create IceScrum's directory
