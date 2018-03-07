@@ -9,7 +9,7 @@ user { 'icescrum':
   home        => '/home/icescrum',
   shell       => '/bin/bash',
   managehome  => yes,
-  password    => '$1$4lR2uQ/E$Ogl5Mew16ksejRzkf5gbc/', #Hash for: Jfr3y89h
+  password    => '$1$bipE8OWo$S/uoEQoxaOpy1/jiD6Pl11', #Hash for: Amkztr423@bv
 }
 
 # Create IceScrum's directory
@@ -41,7 +41,7 @@ class { '::mysql::server':
 # Create db for IceScrum
 mysql::db { 'icescrum':
   user     => 'icescrum',
-  password => 'Jfr3y89h',
+  password => 'Amkztr423@bv',
   host     => '%',
   grant    => ['ALL PRIVILEGES'],
 }
